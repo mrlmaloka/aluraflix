@@ -16,7 +16,7 @@ header {
 
 }
 .chamada {
-  background: rgb(184, 156, 213);
+  background: rgb(255, 0, 191);
   padding-bottom: 80px;
   padding-top: 80px;
   display: flex;
@@ -47,4 +47,19 @@ img{
 .categoria{
     padding-left: 20px;
     padding-right: 20px;
+}
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.categoria-videos img{
+  opacity: 0,5;
+  height: 200px;
+}
+.cateogria-vidos img:hover{
+  opacity: 1,0;
+  bordr:1px solid purple;
 }
